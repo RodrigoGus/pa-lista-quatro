@@ -5,13 +5,13 @@ while continuar != 50:
     h = float(input('numero de horas que deu aula no mes:    '))
 
     if nivel == 1:
-        print(f'seu salario sera de R${h * nivel}')
+        print(f'seu salario sera de R${h * 12}')
         continuar += 1
     elif nivel == 2:
-        print(f'seu salario sera de R${h * nivel}')
+        print(f'seu salario sera de R${h * 17}')
         continuar += 1
     elif nivel == 3:
-        print(f'seu salario sera de R${h * nivel}')
+        print(f'seu salario sera de R${h * 25}')
         continuar += 1
     else:
         print('nivel de professor inexistente')
