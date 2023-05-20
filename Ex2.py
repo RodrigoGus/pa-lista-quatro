@@ -5,7 +5,7 @@ while True:
     2 - PARA SEXO FEMININO
     '''))
     idade = int(input('qual a sua idade?    '))
-    saude = int(input('''alguem problema de saude que te impocibilite de servir?
+    saude = int(input('''algum problema de saude que te impocibilite de servir?
     1 - PARA NAO
     2 - PARA SIM
     '''))

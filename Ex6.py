@@ -12,11 +12,11 @@ while continuar:
         perc = 7
     print(f'o carro teve um deconto de {perc}% e custara apenas {preco}')
 
-    pergunta = input('gostaria de calcular o preco de outro carro? (Y/N)    ')
+    pergunta = input('gostaria de calcular o preco de outro carro? (S/N)    ')
 
-    if pergunta.upper() == "Y":
+    if pergunta.upper() == "S":
         continuar = True
     elif pergunta.upper() == "N":
         continuar = False
     else:
-        print('"Y" para sim e "N" para nao, tendeu?')
+        print('"S" para sim e "N" para nao, tendeu?')

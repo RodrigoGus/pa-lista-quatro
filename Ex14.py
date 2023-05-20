@@ -29,7 +29,6 @@ while continuar != 5:
     elif c == '//':
         print(f'a // b = {a//b}')
         continuar += 1
-
     elif c == '%':
         print(f'a % b = {a%b}')
         continuar += 1
